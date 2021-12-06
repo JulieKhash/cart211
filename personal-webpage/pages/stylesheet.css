@@ -1,0 +1,116 @@
+body {
+  background-image: url("blur.gif");
+  /*comment Here */
+}
+
+h1 {
+  font-size: 2em;
+  color: #FFFFFF;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: #e63900;
+  font-size: 40px;
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-right: 5%;
+  background-color: #000000;
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
+}
+
+h2.exitButton {
+  font-size: 25px;
+}
+
+strong {
+  color: #e63900;
+}
+
+em {
+  color: #e63900;
+}
+
+p.specialparagraph {
+  padding: 10px;
+  text-align: center;
+  background-color: #000033;
+  margin: 60px;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+p {
+  line-height: 1.5;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: 'Noto Serif';
+}
+
+p.title {
+  line-height: 5;
+  text-align: center;
+  color: #ccf5ff;
+  font-size: 25px;
+  letter-spacing: 20px;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+p.weeks {
+  text-align: center;
+  font-size: 40px;
+  line-height: 2;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+p.sources {
+  line-height: 3;
+  color: #3d5c5c;
+  font-size: 15px;
+}
+
+ul.credits {
+  list-style-type: none;
+  margin: 0;
+  padding: 30;
+  font-size: 21px;
+  color:  #FFFFFF;
+  line-height: 2 ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30;
+  font-size: 20px;
+  color:  white;
+  line-height: 1.3;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b30000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccf5ff;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffcccc;
+}

@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+ <!-- This interactive puzzle was aesthetically inspired by the exquisite works of
+ artists from Renaissance era to the 19th century. The simualtion allows the
+ user play with visuals and "enter into artist's mind" so-to speak.
+ The movement of the mouse across the image grids feels relaxing and satistyfing, and at the same
+ time invites the user to passively participlate in his imagination.
+-->
+ <html lang="en" dir="ltr">
+
+ <head>
+   <meta charset="utf-8">
+   <title>ARTIST'S PUZZLER</title>
+   <link rel="stylesheet" href="stylesheet.css">
+ </head>
+ <body>
+   <div id="wrap">
+     <h1 class="title">ARTIST'S PUZZLER </h1>
+   </div>
+   <div>
+     <img id="left" src="images/titleimg/skull-left1.png" width=150 height=421 onclick="split(); showSpark()">
+     <img id="right" src="images/titleimg/skull-right1.png" width=150 height=421 onclick="split(); showSpark()">
+     <a href="puzzle.html">
+       <img id="spark" src="images/clickimg/sun.png" width=340 height=340></a>
+   </div>
+   <script src="script.js"></script>
+ </body>
+
+ </html>

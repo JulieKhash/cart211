@@ -1,0 +1,57 @@
+html {
+  overflow: hidden;
+  background-color: black;
+}
+
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1.title {
+  line-height: 5;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+#left {
+  display: in-line;
+  position: relative;
+  top: -80px;
+  margin-left: 1110px;
+  margin-right: 600px;
+}
+
+#right {
+  display: in-line;
+  position: relative;
+  top: -505px;
+  margin-left: 1250px;
+  margin-right: 800px;
+}
+
+#spark {
+  display: in-line;
+  position: fixed;
+  top: 400px;
+  margin-left: -1110px;
+  margin-right: 1800px;
+  visibility: hidden;
+}
+
+.grid {
+  display: grid;
+  height: 1100px;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: repeat(4, 183px);
+}
+
+.grid-item {
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
